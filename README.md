@@ -2,7 +2,7 @@
 Django_internship_project
 
 Daily a lot of people go to library to read books which is an important part of all educational instituions like schools and colleges. Huge number of people go to library to explore and gain knowledge by reading and checking out books. So keeping the track of all these transactions is nearly impossible for a human. As there are a lot of books and people to keep track of. To the rescue comes this software, which is designed to assist the librarian and other management people to do all these in a much better and efficient way.
-This Project is about *Library management system.*
+This Project is about **Library management system.**
 
 We can perform the following tasks in this project:
 a) Book Search
