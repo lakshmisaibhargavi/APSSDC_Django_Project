@@ -21,18 +21,18 @@ Prerequisites:
 7)	Django - framework (pip install Django)
 
 Instructions to use the project
--Initially make sure that MySQL service is running by checking it in command line tool.
--If it is not working go to start->run and type 'services.msc' and locate mysql server and start it.
--After fulfilling all requirements, extract the zip file.
--After extracting, open console and go to location of extracted folder.
--Run python createTables.py to create database.
--Run python initializeTables.py to populate the database.
--After that type go to Library Management System folder where manage.py file is there.
--Type, python manage.py makemigrations
--Type, python manage.py migrate
--Type, python manage.py createsuperuser, to create a superuser. Enter user name and password.
--To run server, type, python manage.py runserver
--After that go to web browser and type 127.0.0.1:8000 and start using the app and make sure you are connected to internet.
+- Initially make sure that MySQL service is running by checking it in command line tool.
+- If it is not working go to start->run and type 'services.msc' and locate mysql server and start it.
+- After fulfilling all requirements, extract the zip file.
+- After extracting, open console and go to location of extracted folder.
+- Run python createTables.py to create database.
+- Run python initializeTables.py to populate the database.
+- After that type go to Library Management System folder where manage.py file is there.
+- Type, python manage.py makemigrations
+- Type, python manage.py migrate
+- Type, python manage.py createsuperuser, to create a superuser. Enter user name and password.
+- To run server, type, python manage.py runserver
+- After that go to web browser and type 127.0.0.1:8000 and start using the app and make sure you are connected to internet.
 
 
 Note: The idea submitted in the abstract has been modified as per the practical requirements like the addition of fines feature and some more changes.
